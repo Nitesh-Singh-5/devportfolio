@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'core/css/bootstrap.css' %}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
+    {% block corecss %}
+    <link rel="stylesheet" href="{% static 'core/css/core.css' %}">
+    {% endblock corecss %}
+</head>
+
+<body>
+    <div class="container-fluid ">
+        <div class="row">
+            {% include "core/sidebar.html" %}
+
+            <div class="col-sm-10" id="main-bar">
+                {% block content %}
+                {% endblock content %}
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="{% static 'core/js/jquery.js'%} "></script>
+    <script src="{% static 'core/popper.js'%} "></script>
+    <script src="{% static 'core/js/all.min.js'%} "></script>
+    <script src="{% static 'core/js/bootstrap.js'%} "></script>
+</body>
+
+</html>

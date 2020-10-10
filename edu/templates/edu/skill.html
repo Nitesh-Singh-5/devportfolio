@@ -1,0 +1,77 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<div class="container mt-3">
+    <h1 class="heading border-bottom border-info mb-5">SKILLS</h1>
+
+    <!-- first row -->
+    <div class="row text-dark mt-3">
+        <div class="col-sm-5 ">
+            <h3 class="mt-3 skill-name">HTML/CSS</h3>
+            <div class="progress">
+                <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" role="progressbar"
+                    style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+            </div>
+        </div>
+        <div class="col-sm-5 offset-sm-2">
+            <h3 class="mt-3 skill-name">JAVASCRIPT</h3>
+            <div class="progress">
+                <div class="progress-bar bg-INFO progress-bar-striped progress-bar-animated" role="progressbar"
+                    style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- second row -->
+    <div class="row text-dark mt-3">
+        <div class="col-sm-5 ">
+            <h3 class="mt-3 skill-name">C Programming</h3>
+            <div class="progress">
+                <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" role="progressbar"
+                    style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div>
+        </div>
+        <div class="col-sm-5 offset-sm-2">
+            <h3 class="mt-3 skill-name">Python</h3>
+            <div class="progress">
+                <div class="progress-bar pink progress-bar-striped progress-bar-animated" role="progressbar"
+                    style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">95%</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- third row -->
+    <div class="row text-dark mt-3">
+        <div class="col-sm-5 ">
+            <h3 class="mt-3 skill-name">Sql</h3>
+            <div class="progress">
+                <div class="progress-bar bg-secondary progress-bar-striped progress-bar-animated" role="progressbar"
+                    style="width: 85%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">85%</div>
+            </div>
+        </div>
+        <div class="col-sm-5 offset-sm-2">
+            <h3 class="mt-3 skill-name">Django</h3>
+            <div class="progress">
+                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"
+                    style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+        </div>
+    </div>
+
+       <!-- fourth row -->
+       <div class="row text-dark mt-3">
+        <div class="col-sm-5 ">
+            <h3 class="mt-3 skill-name">Bootstrap</h3>
+            <div class="progress">
+                <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar"
+                    style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+            </div>
+        </div>
+        {% comment %} <div class="col-sm-5 offset-sm-2">
+            <h3 class="mt-3">Julia programing</h3>
+            <div class="progress">
+                <div class="progress-bar bg-INFO progress-bar-striped progress-bar-animated" role="progressbar"
+                    style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+            </div>
+        </div> {% endcomment %}
+    </div>
+{% endblock content %}

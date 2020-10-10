@@ -1,0 +1,79 @@
+fonts
+*{
+    padding: 0;
+    margin: 0 ,auto;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#sidebar{
+    background-color: #007EB3 ;
+    height: 100vh;
+}
+#main-bar{
+    color: whitesmoke;
+}
+a.nav-link{
+    color: white;
+}
+a.nav-link:hover{
+    color: black;
+    background-color: #e9cd79;
+}
+a.nav-link.active{
+    color: black;
+    background-color: #ffc107;
+    font-weight: bold;
+}
+.heading{
+    color: #03709D;
+}
+.container-fluid{
+    min-height: 100%;
+}
+.img-thumbnail{
+    border: 1px solid black;
+}
+.btn{
+    border: 1px solid ;
+}
+.btn-contact{
+    border: 1px solid ;
+    color: white;
+    background-color: #007EB3;
+}
+.btn-contact:hover{
+    background-color: white;
+    color: black;
+}
+.st-font{
+    font-family: 'Dancing Script', cursive;
+}
+.skill-name{
+    color: #585858;
+}
+/* Services Icon color */
+.i-color {
+    color: #35A9B6;
+}
+
+/* services Subtitle color */
+.ss-color{
+    color: #888B8C;
+}
+
+.pink{
+    background-color: #FF1493;
+}
+#contact{
+    color: black;
+    background-color: red;    
+}
+@media(max-width: 768px){
+    #sidebar{
+        height: auto;
+    }
+}

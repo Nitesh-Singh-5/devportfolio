@@ -1,0 +1,39 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class=" mt-3 ">
+    <div class="text-center">
+        <img src=" {% static 'core/images/nitesh1.jpg' %}" alt="Profile Pic" class="img-thumbnail" width="250px"
+            height="150px">
+    </div>
+    <div class="mt-3 text-dark mx-5 text-justify">
+        <h1 class="font-weight-bold st-font">Hello,</h1>
+
+        <div class="px-4 " style="line-height: 2rem;">
+            <p style="text-indent:100px" class="text-dark">I am <b class="text-warning">Nitesh Singh</b> having 2 years
+                of
+                full
+                stack web development
+                experience for global business, I offer the technical expertise you for seeking for your web developer
+                position.
+                <br><br>
+                Innovative optimized solution seeker.Excited to be at deployment phase of my new career as a web
+                developer.I am ambitious,assiduous,animated,and an alliteration advocate.
+
+                Provides technical advice and assists in solving programming problems
+                Strong working knowledge of development techniques and methodologies
+                Makes recommendations towards the development of new code or to reuse of existing code.
+                <br>
+                <br>
+                Expertise in Web development using <b class="text-warning"> Django (or other MVC frameworks), JavaScript/jQuery, CSS ,front-end JS Frameworks and HTML</b>
+            </p>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="{% url 'contact' %}" class="btn btn-outline-warning my-2 mr-5">Hire</a>
+        <a href="{% url 'contact' %}" class="btn btn-outline-info my-2">Contact</a>
+    </div>
+</div>
+
+{% endblock content %}
